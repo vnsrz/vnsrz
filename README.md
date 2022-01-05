@@ -3,7 +3,7 @@
 - 💻 I’m currently studying Software Engineering at UnB
 - 🌱 I’m currently getting deeper into Python
 - 💬 Interested in frontend and backend development
-- 📫 How to reach me: via e-mail at viniciusroriz@gmail.com
+- 📫 How to reach me: via e-mail at viniciusroriz21@gmail.com
 
 ### Languages and Tools
 
