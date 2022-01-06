@@ -19,7 +19,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 extraCharacters := [",",".","?",";",":","/","-","'","_","(",")","=","+","@","!"]
 
 Loop {
-    Input, UserInput, L1, {LControl}{RControl}{BackSpace}
+    Input, UserInput, L1, {Enter}{LControl}{RControl}{BackSpace}
 
     switch ErrorLevel {
         case "Timeout":
@@ -30,6 +30,9 @@ Loop {
         default:
             if InStr(ErrorLevel, "EndKey:BackSpace") {
                 bckspc = 1
+            }
+            else if InStr(ErrorLevel, "EndKey:Enter") {
+                Send, {Enter}
             }
             else if InStr(ErrorLevel, "EndKey:LControl") Or InStr(ErrorLevel, "EndKey:RControl") {
                 MsgBox, The input will be now terminated. Press Ctrl+J to activate it again.
