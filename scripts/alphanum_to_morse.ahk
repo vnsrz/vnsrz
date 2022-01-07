@@ -5,6 +5,7 @@
 ; Ctrl+J            starts the script
 ; Ctrl              stops the script
 ; Alt+J             reloads the script
+; Ctrl+Alt+J        opens morse translator website
 ; Shift+Esc         closes AutoHotKey
 
 ; -----------------------------------------------------------------------------------------------
@@ -161,9 +162,9 @@ Loop {
         case "?": 
             Send, ..--..
             size = 7
-        case ";": 
-            Send, -.-.-.
-            size = 7
+        ; case ";": 
+        ;     Send, -.-.-.
+        ;     size = 7
         case ":": 
             Send, ---...
             size = 7
@@ -171,14 +172,14 @@ Loop {
             Send, -....-
             size = 7
         case "/": 
-            Send, --..--
-            size = 7
+            Send, -..-.
+            size = 6
         case "'": 
             Send, .----.
             size = 7
-        case "_": 
-            Send, ..--.-
-            size = 7
+        ; case "_": 
+        ;     Send, ..--.-
+        ;     size = 7
         case "(": 
             Send, -.--.
             size = 6
@@ -218,11 +219,10 @@ HasVal(haystack, needle) {
 	return 0
 }
 
-Pause::Pause ; pause
-
 
 +Esc::ExitApp ; close 
 
 
 !j::Reload ; reload
 
+^!j:: Run "https://morsecode.world/international/translator.html" ; open translator
