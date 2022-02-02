@@ -1,5 +1,4 @@
 ; Script for translating the keyboad input into morse code.
-; By Vinicius R.
 
 ; How to use: 
 ; Ctrl+J            starts the script
@@ -16,7 +15,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ^j::
-
+MsgBox, Your input will now be translated to morse code. Press Ctrl to deactivate the script.
 extraCharacters := [",",".","?",";",":","/","-","'","_","(",")","=","+","@","!"]
 
 Loop {
@@ -36,7 +35,7 @@ Loop {
                 Send, {Enter}
             }
             else if InStr(ErrorLevel, "EndKey:LControl") Or InStr(ErrorLevel, "EndKey:RControl") {
-                MsgBox, The input will be now terminated. Press Ctrl+J to activate it again.
+                MsgBox, The script will be now terminated. Press Ctrl+J to activate it again.
                 return
             }
     }
