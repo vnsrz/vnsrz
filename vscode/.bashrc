@@ -12,6 +12,7 @@ alias ll='ls -l'
 alias rm='rm -iv'
 
 alias cls='clear'
+alias py='python3'
 #alias pyve='source ./../venv/bin/activate'
 pyve() { source "$HOME/venvs/$1/bin/activate"; }
 
