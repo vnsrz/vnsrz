@@ -23,6 +23,7 @@ choco install firefox
 choco install lightshot
 choco install notepadplusplus.install
 choco install qbittorrent
+choco install openhardwaremonitor
 
 # games
 choco install steam-client
