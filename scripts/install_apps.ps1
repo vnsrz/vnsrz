@@ -1,3 +1,8 @@
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Start-Process PowerShell -Verb RunAs "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$PSCommandPath';`"";
+    exit;
+}
+
 Write-Output "Installing Chocolatey --------------------------------------------------"
 Write-Output ""
 
@@ -21,7 +26,7 @@ choco install 7zip.install
 choco install vlc
 choco install firefox
 choco install lightshot
-choco install notepadplusplus.install
+#choco install notepadplusplus.install
 choco install qbittorrent
 choco install openhardwaremonitor
 
@@ -30,3 +35,7 @@ choco install steam-client
 choco install discord.install
 
 choco feature disable -n allowGlobalConfirmation
+Write-Output ""
+
+Write-Host -NoNewLine "Press any key to exit...";
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown");
