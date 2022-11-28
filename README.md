@@ -24,4 +24,4 @@
 
 ---
 
-[![Vinicius's GitHub stats](https://github-readme-stats.vercel.app/api?username=viniciusroriz&show_icons=true&hide_border=true&theme=react)](https://github.com/anuraghazra/github-readme-stats)
+[![Vinicius's GitHub stats](https://github-readme-stats.vercel.app/api?username=vnsrz&show_icons=true&hide_border=true&theme=react)](https://github.com/anuraghazra/github-readme-stats)
