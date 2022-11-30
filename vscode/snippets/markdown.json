@@ -1,0 +1,20 @@
+{
+	"Creates an html img tag ": {
+		"prefix": "mimg",
+		"body": [
+		  "<img src=\"${1:example.png}\" alt=\"\" width=\"${2:500}\" /><br>"
+		],
+		"description": "Creates an html img tag "
+	},
+
+	"Creates 2 html images side by side": {
+		"prefix": "m2img",
+		"body": [
+		  "<p allign=\"middle\">",
+		  "  <img src=\"${1:example.png}\" width=\"${3:500}\" />",
+		  "  <img src=\"${2:example2.png}\" width=\"${3:500}\" /> ",
+		  "</p>"
+		],
+		"description": "Creates 2 html images side by side"
+	}
+}
