@@ -8,6 +8,14 @@
 		"description": "Prints an int variable to console"
 	},
 
+	"Print text": {
+		"prefix": "pmsg",
+		"body": [
+			"printf(\"${1:test}\\n\");",
+		],
+		"description": "Prints text to console"
+	},
+
 	"Print char variable": {
 		"prefix": "pchar",
 		"body": [
