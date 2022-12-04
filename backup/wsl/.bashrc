@@ -1,21 +1,3 @@
-#My aliases
-alias gs='git status -sb'
-alias gaa='git add --all'
-alias gc='git commit -m $2'
-alias gp='git push'
-alias gpo='git push origin'
-alias gpl='git pull'
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
-alias ls='ls -F --color=auto --show-control-chars'
-alias ll='ls -l'
-alias rm='rm -iv'
-
-alias cls='clear'
-alias py='python3'
-#alias pyve='source ./../venv/bin/activate'
-pyve() { source "$HOME/venvs/$1/bin/activate"; }
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -105,15 +87,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-#alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -134,14 +107,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Customizations
 PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]'
-#PS1="$PS1"'\n'                 # new line
+#PS1="$PS1"'\n'                         # new line
 PS1="$PS1"'\[\033[32m\]'
 PS1="$PS1"'\u@\h '
-PS1="$PS1"'\[\033[1;34m\]'       # change to blue
-PS1="$PS1"'\w'                 # current working directory
-#PS1="$PS1"' \[\033[1;35m\][\A]'  # clock
+PS1="$PS1"'\[\033[1;34m\]'              # change to blue
+PS1="$PS1"'\w'                          # current working directory
+#PS1="$PS1"' \[\033[1;35m\][\A]'        # clock
 
-PS1="$PS1"'\[\033[0m\]'        # change color
-PS1="$PS1"' '                 # new line
-PS1="$PS1"'$ '                 # prompt: always $
+PS1="$PS1"'\[\033[0m\]'                 # change color
+PS1="$PS1"' '                           # new line
+PS1="$PS1"'$ '                          # prompt: always $
+
+pyve() { source "$HOME/venvs/$1/bin/activate"; }
