@@ -1,6 +1,6 @@
-### Hi there 👋
+## Hi there 👋
 
-- 💻 I’m currently studying Software Engineering at UnB
+- 💻 Studying Software Engineering at UnB
 - 🌱 I’m currently getting deeper into Python
 - 💬 Interested in frontend and backend development
 - 📫 How to reach me: 
