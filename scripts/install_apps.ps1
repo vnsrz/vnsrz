@@ -15,11 +15,11 @@ Write-Output "Installing Programs ----------------------------------------------
 Write-Output ""
 
 # dev
-choco install python3
+#choco install python3
 choco install git
 choco install vscode
-choco install oraclejdk
-choco install javaruntime
+#choco install oraclejdk
+#choco install javaruntime
 
 # utility
 choco install 7zip.install
@@ -27,7 +27,7 @@ choco install vlc
 choco install firefox
 choco install lightshot
 #choco install notepadplusplus.install
-choco install qbittorrent
+#choco install qbittorrent
 choco install openhardwaremonitor
 
 # games
