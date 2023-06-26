@@ -1,1 +1,0 @@
--novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime -fullscreen -w 1920 -h 1080 -freq 144 +exec custom.cfg
