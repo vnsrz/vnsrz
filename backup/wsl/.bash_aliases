@@ -1,4 +1,8 @@
 #My aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 alias gs='git status -sb'
 alias gaa='git add --all'
 alias gc='git commit -m $2'
