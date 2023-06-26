@@ -14,7 +14,12 @@ alias rm='rm -iv'
 
 alias cls='clear'
 alias py='python3'
-alias rasp='ssh viniciussilva@164.41.98.16 -p 13508'
+alias ma='mamba activate $2'
+
+alias ssp='sshpass -p "pass" ssh -o StrictHostKeyChecking=no $2'
+alias cpy='sshpass -p "pass" scp -o StrictHostKeyChecking=no $2'
+
+alias rubot='cd fga/rubot/ && py main.py'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
