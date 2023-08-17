@@ -1,2 +1,0 @@
-# Allow scripts to run
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
