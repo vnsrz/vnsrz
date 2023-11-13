@@ -7,6 +7,14 @@
 		],
 		"description": "Prints an int variable to console"
 	},
+	
+	"Scan int": {
+		"prefix": "sint",
+		"body": [
+		  "scanf(\"%d\", &${1:n});"
+		],
+		"description": "Scan int"
+	},
 
 	"Print text": {
 		"prefix": "pmsg",

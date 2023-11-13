@@ -20,11 +20,14 @@ alias cls='clear'
 alias py='python3'
 alias ma='mamba activate $2'
 
-alias ssp='sshpass -p "pass" ssh -o StrictHostKeyChecking=no $2'
-alias cpy='sshpass -p "pass" scp -o StrictHostKeyChecking=no $2'
+alias ssp='sshpass -p "password" ssh -o StrictHostKeyChecking=no $2'
+alias cpy='sshpass -p "password" scp -o StrictHostKeyChecking=no $2'
 
 alias rubot='cd fga/rubot/ && py main.py'
 alias android-studio=$HOME/Applications/android-studio/bin/studio.sh
+
+alias colors=$HOME/scripts/colors.sh
+alias cpp=$HOME/scripts/compile.sh
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

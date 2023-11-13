@@ -1,0 +1,15 @@
+{
+	"Creates a python main func": {
+		"prefix": "pinit",
+		"body": [
+			"def main():",
+		  	"  ${1:code}",
+		  	"",
+		  	"",
+			"if __name__ == '__main__':",
+			"    main()",
+		],
+		"description": "Creates a python main func"
+	},
+
+}
