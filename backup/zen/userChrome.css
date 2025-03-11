@@ -1,0 +1,103 @@
+@import "Arc 2.0/arc.css";
+@import "ZenTidyPopup/chrome.css";
+
+#vertical-pinned-tabs-container { margin-top: 3px !important; }
+
+/* --- URL bar changes --- */
+
+#urlbar-input-container {
+    padding-left: 12px !important;
+}
+
+#identity-box {
+    margin-right: 8px !important; /* Adds space between the lock icon and text */
+}
+
+#identity-box.extensionPage {
+    visibility: hidden !important; /* Hides the "loaded by extension" icon */
+    width: 6px !important;
+}
+
+#translations-button {
+    margin-right: 8px !important; 
+    margin-left: 8px !important;
+}
+
+#urlbar[open][zen-floating-urlbar='true'] { /* Bigger URL bar when floating */
+  width: min(90%, 80rem) !important;
+  font-size: 1.2em !important;
+  top: 50vh !important;
+  transform: translateX(-50%);
+  margin-top: -20% !important;
+  left: 57% !important;
+}
+
+/* --- Navbar changes --- */
+
+#preferences-button {
+    order:-1 !important;
+}
+
+#back-button {
+    margin-right: 4px !important;
+}
+
+#forward-button {
+    margin-right: 4px !important;
+}
+
+#stop-reload-button {
+    order:1 !important;
+}
+
+/* Apply Zen workspace colors behind URL bar, and scale down the webview like Glance when popping up */
+#browser, #zen-tabbox-wrapper {
+  transition: 0.2s ease !important;
+}
+
+#browser:has(#urlbar:is([breakout][breakout-extend], [breakout][usertyping][focused])){
+  #zen-tabbox-wrapper{
+    opacity: 0.3;
+    scale: 0.97;
+    backdrop-filter: blur(30px) !important;
+  }
+  
+  &:after {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+      
+      width: 100vw;
+      height: 100vh;
+      
+      top: 0px;
+      left: 0px;
+      
+      background-color: var(--zen-main-browser-background) !important;
+      opacity: 0.3;
+      backdrop-filter: blur(30px) !important; 
+  }
+}
+
+/* .titlebar-button {
+    padding: 0px !important;
+    min-height: 13px !important;
+    min-width: 13px !important;
+    height: 13px !important;
+    align-self: center;
+    margin-left: 13px !important;
+    border-radius: 50px;
+    transition: all 100ms;
+} */
+
+/* @-moz-document url-prefix("chrome:") {
+    #zen-sidebar-top-buttons {
+      min-height: 6px !important;
+      height: 6px !important;
+      max-height: 6px !important;
+    }
+    
+    #zen-current-workspace-indicator {
+      padding: 13px calc(4px + var(--tab-inline-padding)) !important;
+    }
+} */
