@@ -1,0 +1,46 @@
+# Essentials
+[Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141?tab=description)  
+[Achievement enabler](https://www.nexusmods.com/baldursgate3/mods/668)  
+[ImprovedUI](https://www.nexusmods.com/baldursgate3/mods/366)  
+[Script Extender](https://www.nexusmods.com/baldursgate3/mods/2172)  
+[AV Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/8295)  
+[No intro](https://www.nexusmods.com/baldursgate3/mods/680)  
+[No press any key menu](https://www.nexusmods.com/baldursgate3/mods/745)  
+
+## Cosmetic
+[Tav's Hair salon](https://www.nexusmods.com/baldursgate3/mods/213)  
+[Tav's Hair salon Icons](https://www.nexusmods.com/baldursgate3/mods/3346)  
+[Vessnelle's Hair Collection](https://www.nexusmods.com/baldursgate3/mods/1420)  
+[Basket Full of Equipment](https://www.nexusmods.com/baldursgate3/mods/87)  
+[Eyes of the Beholder](https://www.nexusmods.com/baldursgate3/mods/315)  
+[Extra Dyes for the Fashionable Folk of Faerun](https://www.nexusmods.com/baldursgate3/mods/1774)  
+[Transmog Enhanced](https://www.nexusmods.com/baldursgate3/mods/2922)  
+[Half-illithid without black veins and etc](https://www.nexusmods.com/baldursgate3/mods/773)  
+[Dice Set Expansion](https://www.nexusmods.com/baldursgate3/mods/802)  
+[Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899)  
+
+# UI
+[Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945)  
+[Better Containers](https://www.nexusmods.com/baldursgate3/mods/1416)  
+[Better Context Menu](https://www.nexusmods.com/baldursgate3/mods/3617)  
+[Better Hotbar 2](https://www.nexusmods.com/baldursgate3/mods/2417)  
+[Better Target Info](https://www.nexusmods.com/baldursgate3/mods/3269)  
+[Better Cursor Text Panel](https://www.nexusmods.com/baldursgate3/mods/4137)  
+[Better Topbar](https://www.nexusmods.com/baldursgate3/mods/2790)  
+[Better inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597)  
+[Better Tooltips](https://www.nexusmods.com/baldursgate3/mods/6324)  
+[Better Various Widgets](https://www.nexusmods.com/baldursgate3/mods/5291)  
+[Better Character and Party Panels](https://www.nexusmods.com/baldursgate3/mods/1580)  
+[Stackable Items](https://www.nexusmods.com/baldursgate3/mods/1668)  
+
+## Tweaks
+[Auto Send Food To Camp](https://www.nexusmods.com/baldursgate3/mods/6086)  
+[Auto Lockpicking](https://www.nexusmods.com/baldursgate3/mods/6188)  
+[More Reactive Companions](https://www.nexusmods.com/baldursgate3/mods/5447)  
+[No more looping VFX and SFX on buffs](https://www.nexusmods.com/baldursgate3/mods/1033)  
+[Teleport party to you spell](https://www.nexusmods.com/baldursgate3/mods/2149)  
+[Auto Loot Seller V3](https://www.nexusmods.com/baldursgate3/mods/2435)  
+[Bags Bags Bags](https://www.nexusmods.com/baldursgate3/mods/880)  
+[Level 20 (Multiclass)](https://www.nexusmods.com/baldursgate3/mods/570)  
+[Carry Weight Increase](https://www.nexusmods.com/baldursgate3/mods/522)  
+  
